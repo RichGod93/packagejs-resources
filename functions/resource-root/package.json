@@ -1,0 +1,15 @@
+{
+  "name": "cmpr-da406e38d1fc6be78fe91167daf8d977",
+  "description": "",
+  "version": "0.0.0",
+  "author": {
+    "name": "",
+    "url": ""
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "main": "index.jsx",
+  "dependencies": {
+    "jsen-sym-toolkit-for-interfaces": "git+http://localhost:49418/Repositories/packagejs-repository/jsen-cls-sdk-prj-packagejs-mod-toolkit-pkg-interface-for-reactjs-ecmascript/18.2.0-6.0.0-compiled.git"
+  }
+}

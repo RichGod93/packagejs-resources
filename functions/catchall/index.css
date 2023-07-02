@@ -1,0 +1,265 @@
+body { background-color: #282626 !important; }
+
+#app { padding: 90px 0 0 0 !important; }
+@media (max-width: 1000px) {
+  #app { padding: 75px 0 0 0 !important; }
+}
+
+
+
+footer {
+  background-color: #000;
+  margin-top: 90px;
+  padding: 30px 0;
+}
+@media (max-width: 1000px) {
+  footer { margin-top: 0; }
+}
+
+footer > small { margin-bottom: 0; text-align: center; }
+
+footer > small > img { display: inline; width: 28px; }
+
+footer > small > strong { font-variant: small-caps; }
+
+header {
+  background-color: #000;
+  height: auto;
+  padding: 15px;
+  position: absolute;
+  top: 0px;
+  width: 150px;
+}
+@media (max-width: 1000px) {
+  header {
+    height: 90px;
+    padding: 0px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+  }
+}
+
+header > small {
+  text-align: center;
+}
+@media (max-width: 1000px) {
+  header > small {
+    text-align: left;
+  }
+}
+
+header > small > a > img {
+  display: inline;
+  height: 28px;
+  margin: 0;
+  width: auto;
+}
+@media (max-width: 1000px) {
+  header > small > a > img {
+    height: 56px;
+    margin: 17px;
+  }
+}
+
+
+
+header > nav {
+  transition: right 160ms ease-in-out;
+}
+.navigator {
+  margin-right: 0px;
+  transition: all 160ms ease-in-out;
+}
+#openMenu {
+  border: 0;
+  color: #fff;
+  display: none;
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  transition: color 160ms ease-in-out;
+}
+#openMenu:hover {
+  color: #58cff4;
+}
+@media (max-width: 1000px) {
+  #openMenu {
+    display: block;
+  }
+  header > nav {
+    background-color: #282626;
+    padding: 90px 15px;
+    position: fixed;
+    top: 0;
+    right: -160px;
+    bottom: 0;
+    width: 160px;
+  }
+  #app.menuOpen .navigator {
+    margin-right: 160px;
+  }
+  #app.menuOpen header > nav {
+    right: 0;
+  }
+}
+
+header > nav > hr {
+  background-color: #a0a5ae !important;
+  height: 1px;
+  margin: 10px 0 !important;
+}
+
+header > nav > small {
+  line-height: 1;
+  text-align: center;
+}
+@media (max-width: 1000px) {
+  header > nav > small {
+    font-size: 1.382rem;
+    text-align: right;
+  }
+}
+
+header > nav > small > a {
+  color: #58cff4 !important;
+  display: block;
+  margin-bottom: 1.0rem;
+  transition: color 160ms ease-in-out;
+}
+header > nav > small > a:first-child {
+  margin-top: 1.0rem;
+}
+header > nav > small > a:hover {
+  color: #fff !important;
+}
+
+
+
+.component {
+  margin-left: 150px;
+  min-height: 100vh;
+  width: 850px;
+}
+@media (max-width: 1000px) {
+  .component {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+article, form {
+  background-color: #fff;
+  padding: 4.236rem;
+  margin-bottom: 90px;
+}
+
+article > div > h2 {
+  color: #39abce;
+}
+
+article > div > p {
+  font-size: 1.236rem;
+}
+
+article > div > img {
+  float: right;
+  margin: 0.618rem 0 1.618rem 1.618rem;
+  width: 200px;
+}
+
+article > div > blockquote {
+  border: 1px solid #a0a5ae;
+  border-left: 0;
+  border-right: 0;
+  padding: 30px 0;
+  margin: 50px 0;
+}
+
+article > div > blockquote > p {
+  margin-bottom: 0.382rem;
+  text-align: center;
+}
+
+article > div > blockquote > small {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+article > div > blockquote > small > cite {
+  color: #39abce;
+}
+
+
+
+#calloutWelcome {
+  margin: 0 auto;
+  padding: 0 10vw;
+  position: relative;
+  text-align: center;
+}
+@media (max-width: 1000px) {
+  #calloutWelcome { margin-top: 90px; }
+}
+
+#calloutWelcome > hr {
+  background-color: #fff;
+  height: 1px;
+}
+
+#calloutWelcome > hr:first-child {
+  margin-bottom: 30vh;
+  margin-top: 0;
+}
+@media (max-width: 1000px) {
+  #calloutWelcome > hr:first-child { margin-bottom: 5vh; }
+}
+
+#calloutWelcome > hr:last-child {
+  margin-bottom: 0;
+  margin-top: 30vh;
+}
+@media (max-width: 1000px) {
+  #calloutWelcome > hr:last-child { margin-top: 5vh; }
+}
+
+#calloutWelcome > h4 {
+  color: #fff;
+  font-variant: small-caps;
+  line-height: 1.382;
+  margin-bottom: 0;
+}
+@media (max-width: 1000px) {
+  #calloutWelcome > h4 { font-size: 1.236rem; }
+}
+
+#calloutWelcome > h1 {
+  color: #39abce;
+  margin-bottom: 1rem;
+}
+@media (max-width: 1000px) {
+  #calloutWelcome > h1 { font-size: 2.618rem; }
+}
+
+#calloutWelcome > button {
+  background-color: #fff;
+  border-color: #fff;
+  margin-bottom: 0;
+}
+
+.fullHeightImage {
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  opacity: 0.5;
+  position: absolute;
+  left: 0;
+  top: -90px;
+  right: 0;
+  z-index: -1;
+}
+  
+#imageWelcome {
+  background-image: url('/static/images/welcome.jpg');
+}
