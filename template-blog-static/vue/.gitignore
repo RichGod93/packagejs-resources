@@ -6,4 +6,13 @@ npm-debug.log*
 /.tmp
 /dist
 env.local.json
+env.jsen.json
+options.jsen.json
 options.local.json
+bundle.json
+config.json
+export.json
+package-lock.json
+package.json
+require.resolve.imports.app-for-interfaces.js
+require.resolve.imports.sdk-for-interfaces.js
