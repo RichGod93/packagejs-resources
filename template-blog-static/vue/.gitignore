@@ -5,6 +5,7 @@ npm-debug.log*
 /-
 /.tmp
 /dist
+env.local.json
 env.jsen.json
 options.jsen.json
 options.local.json
