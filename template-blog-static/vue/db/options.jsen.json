@@ -1,0 +1,16 @@
+{
+  "kSType": "J",
+  "kSRequired": "1",
+  "kJKeys": {
+    "deployment": {
+      "kSType": "S",
+      "kRFormat": "^[a-z0-9_]{1,32}$",
+      "kSBytes": "32",
+      "kSNormalization": "",
+      "kSLowerCase": "1",
+      "kSRequired": "1",
+      "kSDefault": "vue_resource",
+      "kSIsHidden": "1"
+    }
+  }
+}

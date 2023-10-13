@@ -1,0 +1,232 @@
+{
+  "type": "onefile-unix-local",
+  "engine": "14.18.2",
+  "toolkitsMap": {
+    "jsen-sym-toolkit-for-apis": "~/Repositories/packagejs-repository/jsen-cls-sdk-prj-packagejs-mod-toolkit-pkg-backend-for-api-nodejs/1.0.0-14.18.2",
+    "jsen-sym-toolkit-for-databases": "~/Repositories/packagejs-repository/jsen-cls-sdk-prj-packagejs-mod-toolkit-pkg-backend-for-orm-nodejs/1.0.0-14.18.2",
+    "jsen-sym-toolkit-for-testing": "~/Repositories/packagejs-repository/jsen-cls-sdk-prj-packagejs-mod-toolkit-pkg-interface-for-headless-nodejs/1.0.0-14.18.2"
+  },
+  "toolkits": {
+    "jsen-sym-toolkit-for-apis": "git+http://localhost:49418/Repositories/packagejs-repository/jsen-cls-sdk-prj-packagejs-mod-toolkit-pkg-backend-for-api-nodejs/1.0.0-14.18.2-compiled.git",
+    "jsen-sym-toolkit-for-databases": "git+http://localhost:49418/Repositories/packagejs-repository/jsen-cls-sdk-prj-packagejs-mod-toolkit-pkg-backend-for-orm-nodejs/1.0.0-14.18.2-compiled.git",
+    "jsen-sym-toolkit-for-testing": "git+http://localhost:49418/Repositories/packagejs-repository/jsen-cls-sdk-prj-packagejs-mod-toolkit-pkg-interface-for-headless-nodejs/1.0.0-14.18.2-compiled.git"
+  },
+  "dependenciesMap": {
+    "jsen-cls-sdk-prj-packagejs-fnc-deploy-api-on-unix-nodejs": "~/Repositories/packagejs-repository/jsen-cls-sdk-prj-packagejs-fnc-deploy-api-on-unix-nodejs/1.0.0-14.18.2",
+    "jsen-sym-bundle-sdk-for-storage": "~/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-storage-without-builder-on-localhost-use-httpserver-nodejs/1.0.0-14.18.2",
+    "jsen-sym-bundle-app-for-storage": "~/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-storage-ext-unix-via-app-httpserver-nodejs/1.0.0-14.18.2",
+    "jsen-sym-bundle-sdk-for-drives": "~/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-drive-without-builder-on-localhost-use-httpserver-nodejs/1.0.0-14.18.2",
+    "jsen-sym-bundle-app-for-drives": "~/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-drive-via-app-httpserver-nodejs/1.0.0-14.18.2",
+    "jsen-sym-bundle-sdk-for-databases": "~/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-orm-without-builder-on-localhost-use-httpserver-nodejs/1.0.0-14.18.2",
+    "jsen-sym-bundle-app-for-databases": "~/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-orm-ext-onefile-ext-fulltext-via-app-httpserver-nodejs/1.0.0-14.18.2",
+    "jsen-sym-bundle-sdk-for-apis": "~/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-api-without-builder-on-localhost-use-httpserver-nodejs/1.0.0-14.18.2",
+    "jsen-sym-bundle-app-for-apis": "~/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-api-via-app-httpserver-nodejs/1.0.0-14.18.2"
+  },
+  "dependencies": {
+    "jsen-cls-sdk-prj-packagejs-fnc-deploy-api-on-unix-nodejs": "git+http://localhost:49418/Repositories/packagejs-repository/jsen-cls-sdk-prj-packagejs-fnc-deploy-api-on-unix-nodejs/1.0.0-14.18.2-compiled.git",
+    "jsen-sym-bundle-sdk-for-storage": "git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-storage-without-builder-on-localhost-use-httpserver-nodejs/1.0.0-14.18.2-compiled.git",
+    "jsen-sym-bundle-app-for-storage": "git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-storage-ext-unix-via-app-httpserver-nodejs/1.0.0-14.18.2-compiled.git",
+    "jsen-sym-bundle-sdk-for-drives": "git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-drive-without-builder-on-localhost-use-httpserver-nodejs/1.0.0-14.18.2-compiled.git",
+    "jsen-sym-bundle-app-for-drives": "git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-drive-via-app-httpserver-nodejs/1.0.0-14.18.2-compiled.git",
+    "jsen-sym-bundle-sdk-for-databases": "git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-orm-without-builder-on-localhost-use-httpserver-nodejs/1.0.0-14.18.2-compiled.git",
+    "jsen-sym-bundle-app-for-databases": "git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-orm-ext-onefile-ext-fulltext-via-app-httpserver-nodejs/1.0.0-14.18.2-compiled.git",
+    "jsen-sym-bundle-sdk-for-apis": "git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-api-without-builder-on-localhost-use-httpserver-nodejs/1.0.0-14.18.2-compiled.git",
+    "jsen-sym-bundle-app-for-apis": "git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-api-via-app-httpserver-nodejs/1.0.0-14.18.2-compiled.git"
+  },
+  "disclaimer": {},
+  "environment": {
+    "kJClasses": {
+      "DEF_DEPLOYMENT_HASH_32A": {
+        "kSType": "S",
+        "kRFormat": "^[a-f0-9]{32}$",
+        "kSBytes": "32",
+        "kSNormalization": "NFD",
+        "kSLowerCase": "1",
+        "kSRequired": "1",
+        "kSDefault": "33684388c144d3d057e030336caff950"
+      },
+      "DEF_DEPLOYMENT_HASH_32B": {
+        "kSType": "S",
+        "kRFormat": "^[a-f0-9]{32}$",
+        "kSBytes": "32",
+        "kSNormalization": "NFD",
+        "kSLowerCase": "1",
+        "kSRequired": "1",
+        "kSDefault": "de1a1155e1693a45bbad87aa96bcf3eb"
+      },
+      "DEF_DEPLOYMENT_HASH_32C": {
+        "kSType": "S",
+        "kRFormat": "^[a-f0-9]{32}$",
+        "kSBytes": "32",
+        "kSNormalization": "NFD",
+        "kSLowerCase": "1",
+        "kSRequired": "1",
+        "kSDefault": "57e030336caff950de1a1155e1693a45"
+      },
+      "DEF_DEPLOYMENT_HASH_64": {
+        "kSType": "S",
+        "kRFormat": "^[a-f0-9]{64}$",
+        "kSBytes": "64",
+        "kSNormalization": "NFD",
+        "kSLowerCase": "1",
+        "kSRequired": "1",
+        "kSDefault": "33684388c144d3d057e030336caff950de1a1155e1693a45bbad87aa96bcf3eb"
+      }
+    },
+    "kSType": "J",
+    "kSRequired": "1",
+    "kJKeys": {
+      "DEF_DEPLOYMENT": {
+        "kSType": "S",
+        "kRFormat": "^[a-z0-9_]{1,32}$",
+        "kSBytes": "32",
+        "kSNormalization": "",
+        "kSLowerCase": "1",
+        "kSRequired": "1",
+        "kSDefault": "vue_resource",
+        "kSIsHidden": "1"
+      },
+      "DEF_DEPLOYMENT_ID": {
+        "kSType": "S",
+        "kRFormat": "^[0-9]{17}[a-f0-9]{15}$",
+        "kSBytes": "32",
+        "kSNormalization": "NFD",
+        "kSLowerCase": "1",
+        "kSRequired": "1",
+        "kSDefault": "20231013113554622ad6302401ab06ee",
+        "kSIsHidden": "1"
+      },
+      "DEF_SERVER_SSL_KEY": {
+        "kSType": "S",
+        "kRFormat": "^([A-Za-z0-9\\+\\/\\=]+)?$",
+        "kSBytes": "",
+        "kSNormalization": "NFD",
+        "kSLowerCase": "0",
+        "kSRequired": "1",
+        "kSDefault": ""
+      },
+      "DEF_SERVER_SSL_CERT": {
+        "kSType": "S",
+        "kRFormat": "^([A-Za-z0-9\\+\\/\\=]+)?$",
+        "kSBytes": "",
+        "kSNormalization": "NFD",
+        "kSLowerCase": "0",
+        "kSRequired": "1",
+        "kSDefault": ""
+      },
+      "DEF_PUBLIC_BUCKET_NAME": {
+        "kSType": "X",
+        "kSClass": "DEF_DEPLOYMENT_HASH_32A"
+      },
+      "DEF_SECURE_BUCKET_NAME": {
+        "kSType": "X",
+        "kSClass": "DEF_DEPLOYMENT_HASH_32C"
+      },
+      "DEF_ONEFILE_NAME": {
+        "kSType": "X",
+        "kSClass": "DEF_DEPLOYMENT_HASH_32B"
+      },
+      "DEF_SETUP_TABLES": {
+        "kSType": "S",
+        "kRFormat": "^(0|1)$",
+        "kSBytes": "1",
+        "kSNormalization": "",
+        "kSLowerCase": "0",
+        "kSRequired": "1",
+        "kSDefault": "1"
+      }
+    }
+  },
+  "options": {
+    "kSType": "J",
+    "kSRequired": "1",
+    "kJKeys": {
+      "deployment": {
+        "kSType": "S",
+        "kRFormat": "^[a-z0-9_]{1,32}$",
+        "kSBytes": "32",
+        "kSNormalization": "",
+        "kSLowerCase": "1",
+        "kSRequired": "1",
+        "kSDefault": "vue_resource",
+        "kSIsHidden": "1"
+      }
+    }
+  },
+  "constructors": {
+    "apis": {
+      "$aHDeployerConstructorArguments": {
+        "$aSSSLKeyPEM": "{{ DEF_SERVER_SSL_KEY }}",
+        "$aSSSLCertPEM": "{{ DEF_SERVER_SSL_CERT }}"
+      }
+    },
+    "databases": {
+      "$aHDeployerConstructorArguments": {
+        "$aSSSLKeyPEM": "{{ DEF_SERVER_SSL_KEY }}",
+        "$aSSSLCertPEM": "{{ DEF_SERVER_SSL_CERT }}"
+      },
+      "$aHControllerConstructorArguments": {
+        "$aSStorageURL": "{{ DEF_SERVICES_URL_FOR_STORAGE_PRJBUCKETS }}",
+        "$aSSetupTables": "{{ DEF_SETUP_TABLES }}",
+        "$aSDatabaseName": "{{ DEF_ONEFILE_NAME }}"
+      }
+    },
+    "drives": {
+      "$aHDeployerConstructorArguments": {
+        "$aSSSLKeyPEM": "{{ DEF_SERVER_SSL_KEY }}",
+        "$aSSSLCertPEM": "{{ DEF_SERVER_SSL_CERT }}"
+      }
+    },
+    "storage": {
+      "$aHDeployerConstructorArguments": {
+        "$aSSSLKeyPEM": "{{ DEF_SERVER_SSL_KEY }}",
+        "$aSSSLCertPEM": "{{ DEF_SERVER_SSL_CERT }}"
+      }
+    }
+  },
+  "lockfiles": {
+    "package-lock.json": {
+      "requires": true,
+      "lockfileVersion": 1,
+      "dependencies": {
+        "jsen-cls-sdk-prj-packagejs-fnc-deploy-api-on-unix-nodejs": {
+          "version": "git+http://localhost:49418/Repositories/packagejs-repository/jsen-cls-sdk-prj-packagejs-fnc-deploy-api-on-unix-nodejs/1.0.0-14.18.2-compiled.git#02d9e5f5ea814ab741933e2d99dac4c64881d696",
+          "from": "git+http://localhost:49418/Repositories/packagejs-repository/jsen-cls-sdk-prj-packagejs-fnc-deploy-api-on-unix-nodejs/1.0.0-14.18.2-compiled.git"
+        },
+        "jsen-sym-bundle-app-for-apis": {
+          "version": "git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-api-via-app-httpserver-nodejs/1.0.0-14.18.2-compiled.git#20f74e50103740fb8cf213aa22d0de904c714e8f",
+          "from": "git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-api-via-app-httpserver-nodejs/1.0.0-14.18.2-compiled.git"
+        },
+        "jsen-sym-bundle-app-for-databases": {
+          "version": "git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-orm-ext-onefile-ext-fulltext-via-app-httpserver-nodejs/1.0.0-14.18.2-compiled.git#9c85c4dea88dc829a625cc193f45c1d5d38801c5",
+          "from": "git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-orm-ext-onefile-ext-fulltext-via-app-httpserver-nodejs/1.0.0-14.18.2-compiled.git"
+        },
+        "jsen-sym-bundle-app-for-drives": {
+          "version": "git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-drive-via-app-httpserver-nodejs/1.0.0-14.18.2-compiled.git#5126a9fd317959946a1725817c6ee34906f113d8",
+          "from": "git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-drive-via-app-httpserver-nodejs/1.0.0-14.18.2-compiled.git"
+        },
+        "jsen-sym-bundle-app-for-storage": {
+          "version": "git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-storage-ext-unix-via-app-httpserver-nodejs/1.0.0-14.18.2-compiled.git#e76a94dc353daca940c9c489a9345417e7e981f3",
+          "from": "git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-storage-ext-unix-via-app-httpserver-nodejs/1.0.0-14.18.2-compiled.git"
+        },
+        "jsen-sym-bundle-sdk-for-apis": {
+          "version": "git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-api-without-builder-on-localhost-use-httpserver-nodejs/1.0.0-14.18.2-compiled.git#a2ad68596b33e53a2238408f67d19946e6f64f43",
+          "from": "git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-api-without-builder-on-localhost-use-httpserver-nodejs/1.0.0-14.18.2-compiled.git"
+        },
+        "jsen-sym-bundle-sdk-for-databases": {
+          "version": "git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-orm-without-builder-on-localhost-use-httpserver-nodejs/1.0.0-14.18.2-compiled.git#b336a6d61c80d4ce12eadd136ae30a8d4468192c",
+          "from": "git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-orm-without-builder-on-localhost-use-httpserver-nodejs/1.0.0-14.18.2-compiled.git"
+        },
+        "jsen-sym-bundle-sdk-for-drives": {
+          "version": "git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-drive-without-builder-on-localhost-use-httpserver-nodejs/1.0.0-14.18.2-compiled.git#dd93f138e673fde0d162ab6ee2909b4b4089d174",
+          "from": "git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-drive-without-builder-on-localhost-use-httpserver-nodejs/1.0.0-14.18.2-compiled.git"
+        },
+        "jsen-sym-bundle-sdk-for-storage": {
+          "version": "git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-storage-without-builder-on-localhost-use-httpserver-nodejs/1.0.0-14.18.2-compiled.git#a7ba4a7a5f2fffeb9f8a378ec2793d70a027edc8",
+          "from": "git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-storage-without-builder-on-localhost-use-httpserver-nodejs/1.0.0-14.18.2-compiled.git"
+        }
+      }
+    },
+    "yarn.lock": "# THIS IS AN AUTOGENERATED FILE. DO NOT EDIT THIS FILE DIRECTLY.\n# yarn lockfile v1\n\n\nbignumber.js@9.0.0:\n  version \"9.0.0\"\n  resolved \"https://registry.yarnpkg.com/bignumber.js/-/bignumber.js-9.0.0.tgz#805880f84a329b5eac6e7cb6f8274b6d82bdf075\"\n  integrity sha512-t/OYhhJ2SD+YGBQcjY8GzzDHEk9f3nerxjtfa6tlMXfe7frs/WozhvCNoGvpM0P3bNf3Gq5ZRMlGr5f3r4/N8A==\n\ncore-util-is@~1.0.0:\n  version \"1.0.3\"\n  resolved \"https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.3.tgz#a6042d3634c2b27e9328f837b965fac83808db85\"\n  integrity sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==\n\ninherits@~2.0.3:\n  version \"2.0.4\"\n  resolved \"https://registry.yarnpkg.com/inherits/-/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c\"\n  integrity sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==\n\nisarray@~1.0.0:\n  version \"1.0.0\"\n  resolved \"https://registry.yarnpkg.com/isarray/-/isarray-1.0.0.tgz#bb935d48582cba168c06834957a54a3e07124f11\"\n  integrity sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=\n\n\"jsen-sym-bundle-app-for-apis@git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-api-via-app-httpserver-nodejs/1.0.0-14.18.2-compiled.git\":\n  name jsen-cls-sdk-mod-bundle-pkg-backend-for-api-via-app-httpserver-nodejs\n  version \"1.0.0\"\n  resolved \"git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-api-via-app-httpserver-nodejs/1.0.0-14.18.2-compiled.git#57bbaf5ce0d89e7767da448602ee5a628ada14d3\"\n\n\"jsen-sym-bundle-app-for-databases@git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-orm-ext-onefile-via-app-httpserver-nodejs/1.0.0-14.18.2-compiled.git\":\n  name jsen-cls-sdk-mod-bundle-pkg-backend-for-orm-ext-onefile-via-app-httpserver-nodejs\n  version \"1.0.0\"\n  resolved \"git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-orm-ext-onefile-via-app-httpserver-nodejs/1.0.0-14.18.2-compiled.git#3ae8b56d61379fcf35c222395858caeb0100faf6\"\n  dependencies:\n    mysql \"2.18.1\"\n\n\"jsen-sym-bundle-app-for-drives@git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-drive-via-app-httpserver-nodejs/1.0.0-14.18.2-compiled.git\":\n  name jsen-cls-sdk-mod-bundle-pkg-backend-for-drive-via-app-httpserver-nodejs\n  version \"1.0.0\"\n  resolved \"git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-drive-via-app-httpserver-nodejs/1.0.0-14.18.2-compiled.git#382e37c09b1edf64bdda79de38857614cb6c9ee5\"\n\n\"jsen-sym-bundle-app-for-storage@git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-storage-ext-unix-via-app-httpserver-nodejs/1.0.0-14.18.2-compiled.git\":\n  name jsen-cls-sdk-mod-bundle-pkg-backend-for-storage-ext-unix-via-app-httpserver-nodejs\n  version \"1.0.0\"\n  resolved \"git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-storage-ext-unix-via-app-httpserver-nodejs/1.0.0-14.18.2-compiled.git#b3ba8f8bd0e62590615e1fbc96bc778ec50c65f4\"\n\n\"jsen-sym-bundle-sdk-for-apis@git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-api-without-builder-on-localhost-use-httpserver-nodejs/1.0.0-14.18.2-compiled.git\":\n  name jsen-cls-sdk-mod-bundle-pkg-backend-for-api-without-builder-on-localhost-use-httpserver-nodejs\n  version \"1.0.0\"\n  resolved \"git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-api-without-builder-on-localhost-use-httpserver-nodejs/1.0.0-14.18.2-compiled.git#091bc447a3f46eb77c4c3a97601763c1dfe8a9e4\"\n\n\"jsen-sym-bundle-sdk-for-databases@git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-orm-without-builder-on-localhost-use-httpserver-nodejs/1.0.0-14.18.2-compiled.git\":\n  name jsen-cls-sdk-mod-bundle-pkg-backend-for-orm-without-builder-on-localhost-use-httpserver-nodejs\n  version \"1.0.0\"\n  resolved \"git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-orm-without-builder-on-localhost-use-httpserver-nodejs/1.0.0-14.18.2-compiled.git#fadf49a5876643bba4dd64a984e7b5ad7de7c43e\"\n\n\"jsen-sym-bundle-sdk-for-drives@git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-drive-without-builder-on-localhost-use-httpserver-nodejs/1.0.0-14.18.2-compiled.git\":\n  name jsen-cls-sdk-mod-bundle-pkg-backend-for-drive-without-builder-on-localhost-use-httpserver-nodejs\n  version \"1.0.0\"\n  resolved \"git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-drive-without-builder-on-localhost-use-httpserver-nodejs/1.0.0-14.18.2-compiled.git#bde81aa19d1c4d94e2ffa93b7ce24649c83757d6\"\n\n\"jsen-sym-bundle-sdk-for-storage@git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-storage-without-builder-on-localhost-use-httpserver-nodejs/1.0.0-14.18.2-compiled.git\":\n  name jsen-cls-sdk-mod-bundle-pkg-backend-for-storage-without-builder-on-localhost-use-httpserver-nodejs\n  version \"1.0.0\"\n  resolved \"git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-storage-without-builder-on-localhost-use-httpserver-nodejs/1.0.0-14.18.2-compiled.git#c8980d86deeb8d3e021e266172db924b9becf0bf\"\n\nmysql@2.18.1:\n  version \"2.18.1\"\n  resolved \"https://registry.yarnpkg.com/mysql/-/mysql-2.18.1.tgz#2254143855c5a8c73825e4522baf2ea021766717\"\n  integrity sha512-Bca+gk2YWmqp2Uf6k5NFEurwY/0td0cpebAucFpY/3jhrwrVGuxU2uQFCHjU19SJfje0yQvi+rVWdq78hR5lig==\n  dependencies:\n    bignumber.js \"9.0.0\"\n    readable-stream \"2.3.7\"\n    safe-buffer \"5.1.2\"\n    sqlstring \"2.3.1\"\n\nprocess-nextick-args@~2.0.0:\n  version \"2.0.1\"\n  resolved \"https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-2.0.1.tgz#7820d9b16120cc55ca9ae7792680ae7dba6d7fe2\"\n  integrity sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==\n\nreadable-stream@2.3.7:\n  version \"2.3.7\"\n  resolved \"https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.3.7.tgz#1eca1cf711aef814c04f62252a36a62f6cb23b57\"\n  integrity sha512-Ebho8K4jIbHAxnuxi7o42OrZgF/ZTNcsZj6nRKyUmkhLFq8CHItp/fy6hQZuZmP/n3yZ9VBUbp4zz/mX8hmYPw==\n  dependencies:\n    core-util-is \"~1.0.0\"\n    inherits \"~2.0.3\"\n    isarray \"~1.0.0\"\n    process-nextick-args \"~2.0.0\"\n    safe-buffer \"~5.1.1\"\n    string_decoder \"~1.1.1\"\n    util-deprecate \"~1.0.1\"\n\nsafe-buffer@5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:\n  version \"5.1.2\"\n  resolved \"https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d\"\n  integrity sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==\n\nsqlstring@2.3.1:\n  version \"2.3.1\"\n  resolved \"https://registry.yarnpkg.com/sqlstring/-/sqlstring-2.3.1.tgz#475393ff9e91479aea62dcaf0ca3d14983a7fb40\"\n  integrity sha1-R1OT/56RR5rqYtyvDKPRSYOn+0A=\n\nstring_decoder@~1.1.1:\n  version \"1.1.1\"\n  resolved \"https://registry.yarnpkg.com/string_decoder/-/string_decoder-1.1.1.tgz#9cf1611ba62685d7030ae9e4ba34149c3af03fc8\"\n  integrity sha512-n/ShnvDi6FHbbVfviro+WojiFzv+s8MPMHBczVePfUpDJLwoLT0ht1l4YwBCbi8pJAveEEdnkHyPyTP/mzRfwg==\n  dependencies:\n    safe-buffer \"~5.1.0\"\n\nutil-deprecate@~1.0.1:\n  version \"1.0.2\"\n  resolved \"https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf\"\n  integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=\n"
+  }
+}

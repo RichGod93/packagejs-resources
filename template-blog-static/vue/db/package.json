@@ -1,0 +1,26 @@
+{
+  "name": "prj-db-cnf-vue-resource-jsen",
+  "description": "",
+  "version": "0.0.0",
+  "author": {
+    "name": "unlicensed"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "main": "config.json",
+  "scripts": {
+    "deployer": "node -e '(require(\"jsen-cls-sdk-prj-packagejs-fnc-deploy-api-on-unix-nodejs\"))(process.argv[1]+\"/export.json\", process.argv[1]+\"/bundle.json\", process.argv[1]+\"/\", process.argv[1]+\"/functions/\", [process.argv[1]+\"/node_modules\"]).catch(($e) => { console.log($e); process.exit(); });'",
+    "deploy": "sh -ac 'npm run deployer -- \"$(npm prefix)\" \"$0\" \"$1\"'"
+  },
+  "dependencies": {
+    "jsen-cls-sdk-prj-packagejs-fnc-deploy-api-on-unix-nodejs": "git+http://localhost:49418/Repositories/packagejs-repository/jsen-cls-sdk-prj-packagejs-fnc-deploy-api-on-unix-nodejs/1.0.0-14.18.2-compiled.git",
+    "jsen-sym-bundle-sdk-for-storage": "git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-storage-without-builder-on-localhost-use-httpserver-nodejs/1.0.0-14.18.2-compiled.git",
+    "jsen-sym-bundle-app-for-storage": "git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-storage-ext-unix-via-app-httpserver-nodejs/1.0.0-14.18.2-compiled.git",
+    "jsen-sym-bundle-sdk-for-drives": "git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-drive-without-builder-on-localhost-use-httpserver-nodejs/1.0.0-14.18.2-compiled.git",
+    "jsen-sym-bundle-app-for-drives": "git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-drive-via-app-httpserver-nodejs/1.0.0-14.18.2-compiled.git",
+    "jsen-sym-bundle-sdk-for-databases": "git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-orm-without-builder-on-localhost-use-httpserver-nodejs/1.0.0-14.18.2-compiled.git",
+    "jsen-sym-bundle-app-for-databases": "git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-orm-ext-onefile-ext-fulltext-via-app-httpserver-nodejs/1.0.0-14.18.2-compiled.git",
+    "jsen-sym-bundle-sdk-for-apis": "git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-api-without-builder-on-localhost-use-httpserver-nodejs/1.0.0-14.18.2-compiled.git",
+    "jsen-sym-bundle-app-for-apis": "git+http://localhost:49418/Projects/jsen-project/jsen-cls-sdk-mod-bundle-pkg-backend-for-api-via-app-httpserver-nodejs/1.0.0-14.18.2-compiled.git"
+  }
+}
