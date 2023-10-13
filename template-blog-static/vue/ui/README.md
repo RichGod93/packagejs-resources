@@ -1,0 +1,1 @@
+`cd` into this directory, then run `npm install`, then run `npm run deploy` to deploy your application. try `npm cache clean --force` if there are any problems.
